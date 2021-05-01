@@ -4,6 +4,17 @@
     ViewData["Title"] = "Home page";
 }
 
+<link href="~/css/uikit-rtl.css" rel="stylesheet" type="text/css" />
+<link href="~/css/uikit.min.css" rel="stylesheet" type="text/css" />
+<link href="~/css/uikit.css" rel="stylesheet" type="text/css" />
+<link href="~/css/uikit.min.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="~/js/uikit.js"></script>
+<script type="text/javascript" src="~/js/uikit-icons.js"></script>
+
+
+<legend class="uk-legend uk-text-bold uk-text-warning uk-text-italic">Welcome to Buzzerr!</legend>
+
 
 <div class="row">
     <div class="col-md-4">
@@ -30,8 +41,8 @@
                 <span asp-validation-for="Student.Password" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Sign in" class="btn btn-primary" />
-                <input type="submit" value="Log in" class="btn btn-primary" />
+                <input type="submit" value="Sign in" class="uk-button uk-button-primary uk-button-small" />
+                <input type="submit" value="Log in" class="uk-button uk-button-secondary uk-button-small" />
             </div>
         </form>
     </div>

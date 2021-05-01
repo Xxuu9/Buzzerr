@@ -10,19 +10,12 @@ namespace Buzzerr.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
-
         private readonly Buzzerr.Context.DataContext _context;
 
         public IndexModel(Buzzerr.Context.DataContext context)
         {
             _context = context;
         }
-
-        //public IndexModel(ILogger<IndexModel> logger)
-        //{
-        //    _logger = logger;
-        //}
 
         public void OnGet()
         {
